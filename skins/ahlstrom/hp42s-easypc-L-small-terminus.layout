@@ -1,0 +1,90 @@
+# HP-42S skin for Free42 with compressed, but realistic, faceplate
+#
+# Name:  hp42s-easypc-L-small-terminus
+#
+# This skin is the same as hp42s-easypc-L, except it is much smaller
+# in order to look better in versions of Free42 that do not scale the skin.
+#
+# Landscape version.  See hp42s-easypc-small-P.layout for more discussion.
+#
+# By Chris Ahlstrom
+# 2012-10-18
+#
+# Added to Default keymap to save shifting:
+
+semicolon       : 27      # multiply
+apostrophe      : 37      # +
+k               : 28      # Orange key
+
+Skin: 0,0,542,298
+Display: 15,54 2 2 90a6a5 000000
+
+# =========================================================
+
+Annunciator:  1 30,35,28,15 0,299
+Annunciator:  2 68,35,25,15 36,299
+Annunciator:  3 92,35,27,15 62,299
+Annunciator:  4 120,35,16,15 90,299
+Annunciator:  5 255,35,2,15 255,299             # Blank:
+Annunciator:  6 156,35,6,15 231,299
+Annunciator:  7 162,35,21,15 237,299
+
+# For the first 3 rows, which are on the left in landscape,
+# x is a couple pixels less, y is 30 more. 28 more.
+# 
+#        sens rect.      disp. rect.
+
+Key:  1  5,120,45,56  6,138,43,33  4,136        # SUM+
+Key:  2 50,120,45,56 54,138,43,33 52,136        # 1/x
+Key:  3 100,120,45,56 102,138,43,33 100,136     # sqrt
+Key:  4 148,120,45,56 150,138,43,33 148,136     # LOG
+Key:  5 196,120,45,56 198,138,43,33 196,136     # LN
+Key:  6 244,120,45,56 247,138,43,33 246,136     # XEQ
+
+Key:  7  5,180,45,56   6,198,43,33  4,196       # STO
+Key:  8 50,180,45,56  54,198,43,33 52,196       # RCL
+Key:  9 100,180,45,56 102,198,43,33 100,196     # R down
+Key: 10 148,180,45,56 150,198,43,33 148,196     # SIN
+Key: 11 196,180,45,56 198,198,43,33 196,196     # COS
+Key: 12 244,180,45,56 248,198,43,33 246,196     # TAN
+
+# ENTER's row:
+
+Key: 13  5,238,95,56 8,257,88,32  4,255         # ENTER
+Key: 14 100,238,47,60 102,257,43,33 100,255     # x><y
+Key: 15 148,238,47,60 150,257,43,33 148,255     # +/-
+Key: 16 196,238,47,60 198,257,43,33 196,255     # E
+Key: 17 244,238,47,60 248,257,43,33 246,255     # Backspace
+
+# Right side
+
+Key: 18 300,238,50,60 305,257,43,33 303,255     # UP
+
+Key: 19 294,3,60,54 298,22,52,32 296,20         # 7
+Key: 20 355,3,60,54 359,22,52,32 357,20         # 8
+Key: 21 418,3,60,54 420,22,52,32 418,20         # 9
+Key: 22 478,3,60,54 479,22,52,32 477,20         # / (division)
+
+Key: 23 357,238,50,60 364,257,43,33 362,255     # DOWN
+
+Key: 24 294,62,60,54 298,80,52,32 296,78        # 4
+Key: 25 355,62,60,54 359,80,52,32 357,78        # 5
+Key: 26 418,62,60,54 420,80,52,32 418,78        # 6
+Key: 27 478,62,60,54 479,80,52,32 477,78        # X (multiplication)
+
+# Orange key's row:
+
+Key: 28 424,238,50,60 428,257,43,33 426,255     # ORANGE
+
+Key: 29 294,120,60,54 298,140,52,32 296,138     # 1
+Key: 30 355,120,60,54 359,140,52,32 357,138     # 2
+Key: 31 418,120,60,54 420,140,52,32 418,138     # 3
+Key: 32 478,120,60,54 479,140,52,32 477,138     # - (subtraction)
+
+Key: 33 480,238,50,60 488,256,43,33 486,254     # EXIT
+
+Key: 34 294,180,60,54 298,198,52,32 296,196     # 0 (zero)
+Key: 35 355,180,60,54 359,198,52,32 357,196     # . (decimal)
+Key: 36 418,180,60,54 420,198,52,32 418,196     # R/S
+Key: 37 478,180,60,54 479,198,52,32 477,196     # + (addition)
+

@@ -1,0 +1,79 @@
+Descriptions of Free42 Skins
+Chris Ahlstrom
+2016-02-01
+
+Skins in Free42 Package:
+
+   Standard.layout (built-in) Ugly X-Windows version, but small and usable.
+
+   Realistic:                 Full HP42S rendition, a bit small for a
+                              high-resolution screen.
+
+   Andy480x800.layout:        A large-keyed skin in the style of the HP
+                              financial calculators, a little bit too schematic,
+                              but very readable.
+
+   Ehrling42sl.layout:        Same as "Realistic".
+
+   Ehrling42sm.layout:        A condensed version of "Realistic".
+
+   HP-41.layout:              A garish style, vaguely like a TI calculator.
+
+   kacskin.layout:            A condensed skin similar to "Realistic".
+   kacskin_yellow.layout:     Looks the same as "kacskin" to me.
+
+   KD0GLS_Compact.layout:     Similar to "kacskin" with an orange display.
+
+   Khor.layout:               A small unretouched scan of an HP-42S
+
+   KR.layout:                 Very compact DOS-font realistic rendition.
+
+   Michaels-HP.layout:        Looks identical to "kacskin".
+
+   Original.layout:           A black and white primitive skin.
+
+   SemiAuto42b.layout:        Similar to "Khor", but blueish.
+   SemiAuto42.layout:         Ditto.
+   SemiReal42.layout:         Ditto.
+
+   Voyager42.layout:          Extremely condensed version.
+
+   Widgi42.layout:            Similar to "Standard", with small display.
+
+Ahlstrom Skins:
+
+   hp42s-easyeye-L.layout
+   hp42s-easyeye-L-terminus.layout
+   hp42s-easyeye-P.layout
+   hp42s-easyeye-P-terminus.layout
+   hp42s-easypc-L-small.layout
+   hp42s-easypc-L-small-terminus.layout
+   hp42s-easypc-P-small-terminus.layout
+
+   See the README file for full descriptions of these "personal" skins.
+
+Additional Skins:
+
+   42ck.layout
+   42ct.layout
+   HofferthHiRes-2.layout
+   HofferthHiRes.layout
+   Hofferth.layout
+   HP42CY.layout
+   HP42S.layout
+   HTC4800.layout
+   jgoizueta_42s.layout
+   jgoizueta_42s_retina.layout
+   jgoizueta_free42.layout
+   jgoizueta_free42_retina.layout
+   jgoizueta.layout
+   jgoizueta_retina.layout
+   olpc_42s_hz.layout
+   olpc_42s_vt.layout
+   SGS-L-bright.layout
+   SGS-L.layout
+   SGS-P-bright.layout
+   SGS-P.layout
+   test2.layout
+   test.layout
+

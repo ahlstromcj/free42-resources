@@ -1,0 +1,88 @@
+# HP-42S skin for Free42 with compressed, but realistic, faceplate
+#
+# Constructed by taking a large JPEG of an HP-42S, then copying and pasting
+# the keys and faceplate to push the keys closer together.  Also smoothed
+# face-plate and keys, and replaced the lettering with an unaliased and
+# larger Sans Bold font.
+#
+# The goal was to get a realistic look, and yet keep the lettering readable
+# even with my contact lenses in.
+#
+# By Chris Ahlstrom
+# 2012-10-24
+
+Skin: 0,0,704,1220
+
+# Display: 16,36 4 6 caffbf 000000
+
+Display: 70,90 4 6 879b9a 000000
+
+Annunciator:  1 70,50,70,36 0,1220
+Annunciator:  2 170,50,58,36  90,1220
+Annunciator:  3 224,50,68,36 154,1220
+Annunciator:  4 294,50,40,36 220,1220
+
+# Blank:
+Annunciator:  5 638,50,2,36 638,1220
+
+Annunciator:  6 370,50,13,36 302,1220
+Annunciator:  7 384,50,44,36 316,1220
+
+# The sensitive area normally is specified to occupy the space above the
+# key, and some little bit of space below it.  The display rectangle starts
+# a few pixels above and to the left of the top left corner of the
+# bitmap for the button, and
+# extends a few pixel below and to the right of the bottom right corner of
+# the bitmap.  The active state bitmap is displaced from the display
+# rectangle by a couple pixels left and up.
+#
+#        sens rect.      disp. rect.
+
+Key:  1  15,250,110,135  29,314,82,62  27,312
+Key:  2 125,250,110,135 140,314,82,62 138,312
+Key:  3 237,250,110,135 251,314,82,62 249,312
+Key:  4 352,250,110,135 366,314,82,62 364,312
+Key:  5 468,250,110,135 482,314,82,62 480,312
+Key:  6 583,250,110,135 597,314,82,62 595,312
+
+Key:  7  15,400,110,128  29,454,82,62  27,452
+Key:  8 125,400,110,128 140,454,82,62 138,452
+Key:  9 237,400,110,128 251,454,82,62 249,452
+Key: 10 352,400,110,128 366,454,82,62 364,452
+Key: 11 468,400,110,128 482,454,82,62 480,452
+Key: 12 583,400,110,128 597,454,82,62 595,452
+
+# ENTER's row:
+
+Key: 13  15,532,220,128  29,594,195,66 27,592
+Key: 14 237,532,110,128 251,594,82,62 249,592
+Key: 15 352,532,110,128 366,594,82,62 364,592
+Key: 16 468,532,110,128 482,594,82,62 480,592
+Key: 17 583,532,110,128 597,594,82,62 595,592
+
+Key: 18  15,675,110,128  29,732,82,62  27,730
+Key: 19 125,675,140,128 142,732,107,67 140,730
+Key: 20 268,675,140,128 286,732,107,67 284,730
+Key: 21 413,675,140,128 440,732,107,67 438,730
+Key: 22 555,675,140,128 572,732,107,67 570,730
+
+Key: 23  15,814,110,128  29,870,82,62  27,868
+Key: 24 125,814,140,128 142,870,107,67 140,868
+Key: 25 268,814,140,128 286,870,107,67 284,868
+Key: 26 413,814,140,128 440,870,107,67 438,868
+Key: 27 555,814,140,128 572,870,107,67 570,868
+
+# Orange key's row:
+
+Key: 28  15,952,110,128  29,1009,82,62  27,1007
+Key: 29 125,952,140,128 142,1009,107,67 140,1007
+Key: 30 268,952,140,128 286,1009,107,67 284,1007
+Key: 31 413,952,140,128 440,1009,107,67 438,1007
+Key: 32 555,952,140,128 572,1009,107,67 570,1007
+
+Key: 33  15,1090,110,128  29,1147,82,62  27,1145
+Key: 34 125,1090,140,128 142,1147,107,67 140,1145
+Key: 35 268,1090,140,128 286,1147,107,67 284,1145
+Key: 36 413,1090,140,128 440,1147,107,67 438,1145
+Key: 37 555,1090,140,128 572,1147,107,67 570,1145
+

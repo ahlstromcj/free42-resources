@@ -1,0 +1,65 @@
+Compressed HP-42s Skins (v. 1.0) for the Free42 Calculator
+Chris Ahlstrom
+2012-10-24 to 2016-02-01
+
+Free42 is a cross platform (Mac, Windows, Linux, Android, iOS)
+implementation of the HP-42s engineering calculator, from Thomas Okken:
+
+    http://thomasokken.com/free42/
+
+The free42-resources project archives some skins (and some programs) for
+anyone to use.  Some of the skins have been created by myself.
+
+These skins are meant to be more readable for someone like me who wears
+contact lenses to see distance.  To use these skins (on Debian Linux,
+anyway), copy the GIF and LAYOUT files to:
+
+    ~/.free42
+
+and then select the desired skin via the "Skin" menu.
+
+My skins  were created by taking a large bitmap of an HP-42s scan, and
+greatly cleaning up and enhancing the image, moving the keys closer together
+so that scaling would not shrink them so much, and replacing the fonts
+of the bitmap.  Software used:  the Gnu Image Manipulation Program (GIMP) and
+vim.
+
+Landscape versions are also provided for each skin.  One guy I gave the skins
+to described the landscape skin as "wussy".
+
+hp42s-easyeye-L.layout
+hp42s-easyeye-P.layout
+
+   These are large skins with a font (Sans Bold) close to the HP
+   font,  The orange labels are larger than normal, easier to read.
+   Suitable for high-pixel devices like the Razr Maxx.  Way too big for any
+   laptop screen.
+
+hp42s-easyeye-L-terminus.layout
+hp42s-easyeye-P-terminus.layout
+
+   These are the "easyeye" skins using the "terminus" font, even larger.
+   Also reduced the brightness of the skin.
+
+   Suitable for high-pixel devices like the Razr Maxx.
+
+   Currently my favorite "HP compatible" skin, I use it one the Razr Maxx.
+
+hp42s-easypc-L-small-terminus.layout
+hp42s-easypc-P-small-terminus.layout
+
+   For the PC, the skin needed to be shrunken, since the Windows and Linux
+   versions do not accept a -g/-geometry option.  I wanted these skins to be
+   comparable to gcalctool and galculator in size.
+
+   This skin also includes blue lettering that shows the user which
+   keyboard keys press which buttons.  Inspired by the 41ck skin.
+
+   I also created a larger skin for smartphones, but decided not to include it
+   since the keystrokes are useless.  However, this skin scales well in a
+   smartphone, and at least offers a little extra color, at the expense of
+   more UI clutter.
+
+Long live the Free42 project!
+
+# vim: sw=4 ts=4 wm=8 et ft=sh
