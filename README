@@ -1,6 +1,6 @@
 Compressed HP-42s Skins (v. 1.0) for the Free42 Calculator
 Chris Ahlstrom
-2012-10-24 to 2016-02-01
+2012-10-24 to 2024-10-09
 
 Free42 is a cross platform (Mac, Windows, Linux, Android, iOS)
 implementation of the HP-42s engineering calculator, from Thomas Okken:
@@ -14,9 +14,11 @@ These skins are meant to be more readable for someone like me who wears
 contact lenses to see distance.  To use these skins (on Debian Linux,
 anyway), copy the GIF and LAYOUT files to:
 
-    ~/.free42
+    ~/.local/share/free42
 
-and then select the desired skin via the "Skin" menu.
+and then select the desired skin via the "Skin" menu. If the bunch of
+skins is not shown, then also create ~/.free42 as a soft link to the
+~/.local/share/free42 directory. 
 
 My skins  were created by taking a large bitmap of an HP-42s scan, and
 greatly cleaning up and enhancing the image, moving the keys closer together
